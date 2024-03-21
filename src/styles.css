@@ -1,0 +1,246 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/images/airplane.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    margin: 0; 
+    height: 100%; 
+  }
+
+nav {
+    display: flex;
+    height: 100px;
+    margin-top: 20px;
+    padding: 50px 50px;
+  
+}
+
+.nav--title {
+  visibility: visible;
+ }
+
+.nav--icon {
+
+    height: 420px;
+    margin-top: 70px;
+}
+
+  .text-orange {
+    color: orange;
+  }
+
+  /* Footer social media icons styling */
+
+.footer-icon {
+  color: orange; 
+}
+
+.footer-icon:hover,
+.footer-icon:focus,
+.footer-icon:active {
+  color: purple !important; 
+}
+
+
+.navbar {
+  visibility: visible;
+}
+
+  .nav-link {
+    color: purple !important;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px !important;
+    margin-top: 25px;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: orange !important;
+}
+
+  .btn-custom {
+    background-color: orange !important; 
+    color: purple !important; 
+    border-color: orange !important;
+}
+
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active {
+    background-color: purple !important; 
+    color: orange !important;
+    border-color: purple !important;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+/* Date picker styling */
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  width: 100%;
+}
+
+.form-control,
+.form-select,
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 0.375rem 0.75rem; 
+  font-size: 1rem;
+  line-height: 1.5; 
+  border-radius: 0.25rem; 
+}
+
+/* results page styling*/
+
+.title-color, .section-title {
+  text-align: center;
+  color: purple;
+}
+
+.destination-name-color {
+  color: orange;
+  margin-bottom: 30px;
+}
+
+.secondary-title-color {
+  text-align: center;
+  color: purple;
+  margin-bottom: 30px;
+}
+
+.results-container {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin: 50px;
+  width: 90%; 
+  max-width: 500px;
+}
+
+.destination-container {
+  margin-bottom: 30px; 
+}
+
+/* itinerary page styling */
+
+.section-title {
+  margin-top: 2rem;
+}
+
+/* .itinerary-container {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  width: 100%;
+} */
+
+.dropdown-select-container {
+  margin-top: 30px; 
+}
+
+.btn-clear {
+  background-color: orange !important; 
+  color: purple !important;
+  border-color: orange !important;
+}
+
+.btn-clear:hover, .btn-clear:focus, .btn-clear:active {
+  background-color: purple !important; 
+  color: orange !important;
+  border-color: purple !important;
+}
+
+.image-container, .text-container {
+  background-color: rgba(255, 255, 255, 0.5); 
+  border-radius: 8px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+  
+}
+
+.section-title {
+  color: purple; 
+}
+
+.destination-title {
+  color: #6C3483; /* Adjust the color to match your site's theme */
+  margin-bottom: 15px; /* Add some space between the title and the paragraph */
+}
+
+
+/* About.css */
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 50px 20px; 
+  text-align: center; 
+  color: whitesmoke; 
+  background-color: rgba(128, 128, 128, 0.3);
+
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+}
+
+.about-heading {
+  font-size: 2.5em; 
+  margin-bottom: 20px;
+}
+
+.about-subheading {
+  font-size: 1.8em; 
+  margin-top: 40px; 
+  margin-bottom: 10px;
+}
+
+.about-text {
+  font-size: 1.2em; 
+  line-height: 1.6; 
+  margin-bottom: 20px; 
+}
+
+/*contact form*/
+
+.contact-container {
+  
+  margin-top: 100px;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+  display: flex; 
+  flex-direction: column; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+
+.form-label {
+  color: purple;
+}
+
+.contact-title {
+  color: purple;
+}
