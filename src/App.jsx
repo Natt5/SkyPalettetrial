@@ -80,6 +80,7 @@ import Results from './components/results';
 import Itinerary from './components/itinerary';
 import About from "./components/about";
 import Contact from './components/contact';
+import ThankYou from './components/ThankYou';
 
 function App() {
   return (
@@ -95,6 +96,7 @@ function App() {
           <Route path="/itinerary" element={<Itinerary />} /> {/* Now correctly refers to the lowercase filename */}
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/thank-you" element={<ThankYou />} />
         </Routes>
         <Footer />
       </div>
