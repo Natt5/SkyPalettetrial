@@ -96,7 +96,7 @@ function App() {
           <Route path="/itinerary" element={<Itinerary />} /> {/* Now correctly refers to the lowercase filename */}
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/thank-you" element={<ThankYou />} />
+          <Route path="/thankyoupage" element={<ThankYou />} />
         </Routes>
         <Footer />
       </div>
