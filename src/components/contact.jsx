@@ -140,7 +140,7 @@ function Contact() {
                 </div>
             )}
             {/* Add 'method="POST"', 'data-netlify="true"', and a hidden input for form name */}
-            <form name="contact" method="POST" data-netlify="true">
+           <form name="contact" method="POST" data-netlify="true" action="/thank-you">
                 {/* Netlify requires a hidden input field to identify the form */}
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="mb-3">
