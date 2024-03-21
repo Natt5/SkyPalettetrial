@@ -80,7 +80,7 @@ import Results from './components/results';
 import Itinerary from './components/itinerary';
 import About from "./components/about";
 import Contact from './components/contact';
-import ThankYou from './components/ThankYou';
+import ThanYou from './components/thankyoupage';
 
 function App() {
   return (
